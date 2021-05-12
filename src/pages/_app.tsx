@@ -3,7 +3,7 @@ import { Header } from '../components/Header'
 
 
 
-import '../styles/global.scss'
+import '../styles/App.scss'
 
 function MyApp({ Component, pageProps }) {
   return (

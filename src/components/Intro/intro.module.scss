@@ -1,0 +1,50 @@
+.introContainer{
+  background: #984b43;
+  height: 90vh;
+
+.animatedBackground{
+    z-index: 1;
+}
+
+
+h1{
+  position: absolute;
+  bottom: 35%;
+  margin-left: 10%;
+  font-size: 4rem;
+
+  -webkit-transition: font-size 2s;
+       -moz-transition: font-size 2s;
+         -o-transition: font-size 2s;
+            transition: font-size 2s;
+
+}
+
+h2{
+  position: absolute;
+  bottom: 25%;
+  margin-left: 10%;
+  font-size: 4rem;
+
+  -webkit-transition: font-size 2s;
+       -moz-transition: font-size 2s;
+         -o-transition: font-size 2s;
+            transition: font-size 2s;
+
+}
+
+h1:hover{
+
+  font-size: 4.5rem;
+}
+
+h2:hover{
+
+  font-size: 4.5rem;
+}
+
+
+
+
+}
+
