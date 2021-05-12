@@ -1,14 +1,19 @@
-import '../styles/global.scss'
-import { Header } from '../components/Header'
-import { About } from '../components/About'
 
+import { Header } from '../components/Header'
+
+
+
+import '../styles/global.scss'
 
 function MyApp({ Component, pageProps }) {
   return (
 
     <div>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet" />
+
       <Header />
-      <About />
+
       <Component{...pageProps} />
     </div>
   )
