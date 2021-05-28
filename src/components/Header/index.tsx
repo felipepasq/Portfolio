@@ -14,9 +14,9 @@ export function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home"><h4 className={styles.items}>Home</h4></Nav.Link>
-                        <Nav.Link href="#About"><h4 className={styles.items}>About</h4></Nav.Link>
-                        <Nav.Link href="#Projects"><h4 className={styles.items}>Projects</h4></Nav.Link>
+                        <Nav.Link href="#home"><h4 className={styles.items}>About</h4></Nav.Link>
+                        <Nav.Link href="#About"><h4 className={styles.items}>Projects</h4></Nav.Link>
+                        <Nav.Link href="#Projects"><h4 className={styles.items}>Contact Me</h4></Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>

@@ -1,46 +1,63 @@
 .profileContainer{
-    margin-top: 5rem;
+    margin-top: 7rem;
+    justify-content: center;
+    text-align: center;
     display: flex;
-    margin-left: 5rem;
-    background-color: lightcyan;
     
+    background-color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    width: 100%;
+
     
         
     .profilePicture{
         border-radius: 50%;
         height: 10rem;
         width: auto;
-        margin-left: 4rem;
+        margin-top: 3rem;
+        
     }
 
     .profileText{
         line-height: 1.5;
         margin-left: 2rem;
-        width: 40%;
+        width: 50%;
         margin-top: 1rem;
-        font-family: 'Lexend', sans-serif;
+        text-align: justify;
         
     }
     
     .skillList{
-        padding-left:10rem ;
+        margin-left:10rem ;
     }
+
+    .iconPicture{
+        height: 30px;
+        width: auto;
+        margin-right: 0.5rem;
+        
+    }
+
+
 
     h1{
         margin-left: 15rem;
-        font-weight: 400;
-        font-family: 'Krona One', sans-serif;
-        color: blue;
         
     }
 
     ul{
-      position: absolute;
-      margin-top: 4rem;
-      margin-left: 64%;
+      margin-left: 15rem;
+      margin-top: 2rem;
       column-count: 2;
       column-gap: 5rem;
-      font-family: 'Lexend', sans-serif;
+      list-style-type:none;
+     
+    }
+    li{
+        margin-bottom: 1rem;
+        width: fit-content;
+        
     }   
    
 

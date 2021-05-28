@@ -5,16 +5,19 @@ export function Intro() {
 
     return (
         <div className={styles.introContainer}>
-            <div className={styles.animatedBackground}>
-                <Particles params={{
-                    particles: {
-                        number: {
-                            value: 100,
-                        }
+            <div>
+                <Particles style={{
+                    height: '20%'
+                }}
+                    params={{
+                        particles: {
+                            number: {
+                                value: 100,
+                            }
 
+                        }
                     }
-                }
-                }
+                    }
                 />
                 <div>
                     <h1>Felipe Pasqua</h1>
