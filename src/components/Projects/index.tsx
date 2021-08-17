@@ -19,7 +19,7 @@ export function Projects() {
                         <div className={styles.firstRow}>
                             <Row xs={1} md={2} lg={3}>
                                 <Col>
-                                    <a href="https://www.twitch.tv/gaules">
+                                    <a href="https://github.com/felipepasq/front-end-test">
                                         <Card style={{
                                             width: '18rem',
                                             height: '19rem'
@@ -29,10 +29,9 @@ export function Projects() {
                                                     style={{
                                                         marginTop: '5rem'
                                                     }}
-                                                >Card Title</Card.Title>
+                                                >PontoComic</Card.Title>
                                                 <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
+                                                    Teste técnico realizado para uma empresa, cujo objetivo
                                                 </Card.Text>
                                             </Card.Body>
                                         </Card>
@@ -81,136 +80,6 @@ export function Projects() {
                                     </a>
                                 </Col>
 
-                            </Row>
-                        </div>
-
-                        <div className={styles.secondRow}>
-                            <Row xs={1} md={2} lg={3}>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
-                            </Row>
-                        </div>
-
-                        <div className={styles.secondRow}>
-                            <Row xs={1} md={2} lg={3}>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
-                                <Col>
-                                    <a href="https://www.twitch.tv/gaules">
-                                        <Card style={{
-                                            width: '18rem',
-                                            height: '19rem'
-                                        }}>
-                                            <Card.Body>
-                                                <Card.Title
-                                                    style={{
-                                                        marginTop: '5rem'
-                                                    }}
-                                                >Card Title</Card.Title>
-                                                <Card.Text>
-                                                    Some quick example text to build on the card title and make up the bulk of
-                                                    the card's content.
-                                                </Card.Text>
-                                            </Card.Body>
-                                        </Card>
-                                    </a>
-                                </Col>
                             </Row>
                         </div>
                     </Container>

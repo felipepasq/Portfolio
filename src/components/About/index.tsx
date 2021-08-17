@@ -5,14 +5,14 @@ import Link from 'next/link';
 export function About() {
     return (
         <div>
-            
+
             <div className={styles.profileContainer}>
                 <img className={styles.profilePicture} src="/pp.jpg" alt="Profile Picture" />
                 <p className={styles.profileText}>Opa, tudo bem? Espero que você esteja bem e seja bem vindo ao meu portfólio.
-                Primeiramente gostaria de me apresentar para que você conheça um pouco da minha história. Sou nascido e criado na cidade de Guaxupé, interior de minas gerais
-                e desde pequeno sempre fui muito interessado por tecnologia e principalmente por computadores, tanto na parte de software como na parte de hardware. Tenho como
-                hobbie de jogar jogos online como Cs, Valorant, Pubg e Sea of Thieves. Gosto muito de praticar exercícios físicos e fazer um churrasquinho no fim de semana 🍺.
-                
+                    Primeiramente gostaria de me apresentar para que você conheça um pouco da minha história. Sou nascido e criado na cidade de Guaxupé, interior de minas gerais
+                    e desde pequeno sempre fui muito interessado por tecnologia e principalmente por computadores, tanto na parte de software como na parte de hardware. Tenho como
+                    hobbie jogar jogos online como Cs, Valorant, Pubg e Sea of Thieves. Gosto muito de praticar exercícios físicos e fazer um churrasquinho no fim de semana 🍺.
+
                 </p>
 
                 <div>
@@ -28,7 +28,7 @@ export function About() {
                     </ul>
                 </div>
             </div>
-            
+
         </div>
 
 
